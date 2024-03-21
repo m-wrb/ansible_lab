@@ -1,0 +1,7 @@
+hostname {{ inventory_hostname }}
+!
+interface GigabitEthernet0/1
+description Management interface
+ip address {{ management_ip }} {{ subnet_mask }}
+!
+!

@@ -5,7 +5,7 @@
   tasks:
     - name: Ensure directory for simulated network configurations exists
       file:
-        path: ~/simulated_configs
+        path: ./simulated_configs
         state: directory
         mode: '0755'  # Sets the permissions for the directory
 
@@ -15,4 +15,4 @@
           hostname Router1
           interface GigabitEthernet0/1
           ip address 192.168.1.1 255.255.255.0
-        dest: ~/simulated_configs/router1_config.txt
+        dest: ./simulated_configs/router1_config.txt
