@@ -1,0 +1,6 @@
+hostname Router2
+!
+interface GigabitEthernet0/1
+description Management interface
+ip address 10.0.0.1 255.255.255.0
+!
