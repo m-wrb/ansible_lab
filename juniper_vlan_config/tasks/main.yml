@@ -1,0 +1,6 @@
+---
+# tasks file for juniper_vlan_config
+- name: Generate Juniper
+  template:
+    src: vlan_config.j2
+    dest: "./output_configs/{{ inventory_hostname }}_juniper_vlan_config.txt"

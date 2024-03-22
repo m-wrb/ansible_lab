@@ -1,0 +1,8 @@
+configurations {
+vlans 10 {
+    description "Users;
+    }
+vlans 20 {
+    description "Servers;
+    }
+}
